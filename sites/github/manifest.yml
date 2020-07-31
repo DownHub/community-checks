@@ -1,0 +1,14 @@
+name: GitHub
+url: https://github.com/
+status_page_url: https://www.githubstatus.com/
+checks:
+  - name: GitHub Web Site
+    web_url: https://github.com/
+  - name: GitHub API
+    api_url: https://api.github.com/
+  - name: GitHub Pull Issues Access
+    web_url: https://github.com/octocat/Hello-World/issues/1
+  - name: GitHub Pull Request Access
+    web_url: https://github.com/octocat/Hello-World/pull/1
+  - name: GitHub Clone HTTPS
+    docker: git_clone_https
