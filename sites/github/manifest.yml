@@ -6,6 +6,8 @@ checks:
     web_url: https://github.com/
   - name: GitHub API
     api_url: https://api.github.com/
+    headers:
+      Authorization: "token {{secret.GITHUB_TOKEN}}"
   - name: GitHub Pull Issues Access
     web_url: https://github.com/octocat/Hello-World/issues/7
   - name: GitHub Pull Request Access
